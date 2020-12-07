@@ -23,7 +23,6 @@ public class MusicAllStreamingServiceApplication {
 				if (file.isFile() & !file.getName().equals(".DS_Store")) {
 					String baseName = file.getName().replaceAll("\\.[^.]*$", "");
 					musicRepository.save(new MusicEntity(baseName, "http://localhost:8080/api/music/" + baseName + ".mp3"));
-					System.out.println(baseName);
 				}
 			}
 		});

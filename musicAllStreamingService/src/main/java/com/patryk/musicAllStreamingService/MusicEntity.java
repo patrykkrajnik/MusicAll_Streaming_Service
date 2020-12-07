@@ -11,12 +11,10 @@ public class MusicEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer idSong;
-
     private String songName;
     private String songURL;
 
     public MusicEntity() {
-
     }
 
     public MusicEntity(String songName, String songURL) {

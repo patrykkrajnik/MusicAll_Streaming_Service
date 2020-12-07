@@ -23,6 +23,7 @@ public class MusicEntityController {
     @Autowired
     MusicRepository musicRepository;
 
+    //listing all available songs
     @RequestMapping(value = "/music", method = RequestMethod.GET)
     public ResponseEntity<List<MusicEntity>> getAllSongs(@RequestParam(required = false) String songName) {
         try {
@@ -44,6 +45,7 @@ public class MusicEntityController {
         }
     }
 
+    //streaming a certain chosen song
     @RequestMapping(value = "/music/{title}", method = RequestMethod.GET)
     public void getSongAsByteArray(@PathVariable("title") final String title, HttpServletResponse response) throws IOException {
         File file = new File(FILES_PATH + title);
