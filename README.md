@@ -13,4 +13,4 @@ Patryk Krajnik • patrykkrajnik@icloud.com
 
 
 ## License
-Project based on • [MIT License](LICENSE.md)
+Project based on [MIT License](LICENSE.md)
