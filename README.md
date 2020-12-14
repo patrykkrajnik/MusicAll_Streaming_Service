@@ -1,2 +1,19 @@
 # MusicAll Streaming Service
-Backend service written in Java, made for iOS Application MusicAll. Service allows to stream music files from local directory. 
+Backend service written in Java, made for iOS Application [MusicAll](https://github.com/patrykkrajnik/musicAll). Service allows to stream music files from local directory. 
+
+
+
+## Usage
+- Create a directory at your local computer and paste some music files
+- Enter path to your directory in the code
+- Turn on the service and connect to it
+
+
+
+## Author
+Patryk Krajnik • patrykkrajnik@icloud.com 
+
+
+
+## License
+Project based on • [MIT License](LICENSE.md)
